@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+          <class name="org.testing.testScripts.TC1_PostMethod"/>
+          <class name="org.testing.testScripts.TC2_getallmethod"/>
+          <class name="org.testing.testScripts.TC3_getperticular"/>
+          <class name="org.testing.testScripts.TC4_delete"/>
+          <class name="org.testing.testScripts.TC5_put"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
